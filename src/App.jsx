@@ -1,5 +1,22 @@
+import "./app.scss"
+import Navbar from "./component/navbar/Navbar"
+import Test from "./Test"
+
 const App = () => {
-  return <div>Hello World</div>;
+  return <div>
+    {/* <section>
+      <Navbar/>
+    </section>
+    <section>Parallax</section>
+    <section>Services</section>
+    <section>Parallax</section>
+    <section>Portfolio1</section>
+    <section>Portfolio2</section>
+    <section>portfolio3</section>
+    <section>contact</section> */}
+    <Test/>
+
+  </div>;
 };
 
 export default App;
