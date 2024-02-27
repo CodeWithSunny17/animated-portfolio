@@ -1,6 +1,7 @@
 import React from 'react';
 import "./navbar.scss";
 import {motion} from "framer-motion";
+import Sidebar from "../sidebar/Sidebar";
 
 const Navbar = () => {
 
@@ -22,6 +23,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
         {/* Sidebar */}
+        <Sidebar/>
         <div className="wrapper">
             <motion.span variants={container} initial="hidden" animate="visible">Sunny Kumar</motion.span>
             <div className="social">
