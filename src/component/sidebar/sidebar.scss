@@ -7,11 +7,12 @@
     color: black;
     
    .bg{
+        z-index: 999;
         position:fixed;
         top:0;
         left:0;
         bottom:0;
-        width: 300px;
+        width: 350px;
         background: white;
 
         .links{
@@ -30,6 +31,7 @@
         }
    }
    button{
+    z-index: 999;
     width: 50px;
     height: 50px;
     border-radius: 50%;
