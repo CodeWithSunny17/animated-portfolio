@@ -1,0 +1,36 @@
+.hero{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    overflow:hidden;
+    position: relative;
+
+    .wrapper{
+        max-width: 1100px;
+        height:100%;
+        margin:auto
+    } 
+
+    .textContainer{
+        h2{
+            font-size: 30PX;
+            letter-spacing: 10px;
+            color:blueviolet;
+        }
+        h1{
+            font-size: 70px;
+
+        }
+    }
+
+    .imageContainer{
+        position:absolute;
+        top: 0;
+        right: 0;
+        
+
+        img{
+            height: 90vh;
+            
+        }
+    }
+}

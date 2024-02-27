@@ -10,7 +10,7 @@ const Navbar = () => {
     visible: {
       opacity: 1, 
       scale: 1, 
-      x:100, 
+      // x:100, 
       transition:{
         // type:"spring", 
         // stiffness:200,      //fluedity
