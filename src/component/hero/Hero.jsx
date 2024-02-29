@@ -46,7 +46,7 @@ function Hero() {
                 <motion.h2 variants= {textVariants}>SUNNY KUMAR</motion.h2>
                 <motion.h1 variants= {textVariants}>Web Developer and Data Engineer</motion.h1>
                 <motion.div className="buttons" variants= {textVariants}>
-                    <motion.button variants= {textVariants}>See the motion.Latest Works</motion.button>
+                    <motion.button variants= {textVariants}>See the Latest Works</motion.button>
                     <motion.button variants= {textVariants}>Contact Me</motion.button>
                 </motion.div>
                 <motion.img src="/scroll.png" alt="" variants= {textVariants} animate="scrollButton"/>

@@ -1,0 +1,31 @@
+.services{
+    position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    // align-items: center;
+
+    .textContainer{
+        position: absolute;
+        top:0;
+        right:0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            color: grey;
+            text-align: end;
+        }
+        hr{
+            width:300px;
+            border: 0.5px solid grey;
+        }
+    }
+
+    .titleContainer{
+        
+    }
+
+}
