@@ -1,31 +1,107 @@
-.services{
+.services {
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
     position: relative;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
-    .textContainer{
-        position: absolute;
-        top:0;
-        right:0;
+
+
+    .textContainer {
+        align-self: flex-end;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        // justify-content: center;
+        gap: 20px;
+        flex: 1;
 
-        p{
+        p {
+            font-weight: 200;
+            font-size: 15px;
             color: grey;
             text-align: end;
         }
-        hr{
-            width:300px;
+
+        hr {
+            width: 300px;
             border: 0.5px solid grey;
         }
     }
 
-    .titleContainer{
-        
+    .titleContainer {
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            img {
+                width: 250px;
+                height: 80px;
+                border-radius: 50px;
+                object-fit: cover;
+            }
+
+            h1 {
+                font-size: 84px;
+                font-weight: 200;
+            }
+
+            button {
+                background-color: orange;
+                color: black;
+                font-size: 30px;
+                width: 250px;
+                padding: 20px;
+                border: none;
+                border-radius: 40px;
+                cursor: pointer;
+            }
+        }
+
+        flex:2;
     }
+
+    .listContainer {
+        display: flex;
+        flex-direction: row;
+        flex: 2;
+        max-width: 1100px;
+        margin: auto;
+
+        .box {
+            padding: 40px;
+            border: 0.5px solid grey;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            button {
+                padding: 10px;
+                background-color: orange;
+                color: black;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+        }
+    }
+
+
 
 }
