@@ -1,7 +1,7 @@
 import React from 'react'
 import "./services.scss"
 
-function Services() {
+function Services() { 
   return (
     <div className='services'>
         <div className="textContainer">
