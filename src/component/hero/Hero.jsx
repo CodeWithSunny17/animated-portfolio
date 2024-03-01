@@ -53,7 +53,7 @@ function Hero() {
             </motion.div>
             <motion.div className="slidingText" variants={sliderVariants} initial="initial" animate="final">LPU'2020 INFOSYS WEB DEV</motion.div>
             <div className="imageContainer">
-                {/* <img src="/hero.png" alt="" /> */}
+                <img src="/hero.png" alt="" />
             </div>
         </div>
     </div>
